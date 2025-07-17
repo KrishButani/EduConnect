@@ -1,0 +1,129 @@
+/* CourseEnrollmentPage.css */
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar ul li:first-child {
+  margin-left: 0;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  float: left;
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.list-group {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-group-item {
+  padding: 10px 0;
+}
+
+/* Main Content Styles */
+.main-content {
+  margin-left: 220px; /* Adjusted for sidebar width and margin */
+  padding: 20px;
+}
+
+/* Image Slider Styles */
+.slider-container {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.slider {
+  display: flex;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 50%;
+  height: 100%;
+  align: center;
+}
+
+/* Content Section Styles */
+.content {
+  margin-bottom: 20px;
+}
+
+/* Enroll Button Styles */
+.enroll-button-container {
+  text-align: center;
+}
+
+.enroll-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.enroll-button:hover {
+  background-color: #45a049;
+}
+
+.enroll-button a {
+  color: #fff;
+  text-decoration: none;
+}
